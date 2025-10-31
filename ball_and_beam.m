@@ -1,13 +1,7 @@
-%{
-    CONTROL II
-    EXAMEN SEGUNDO PARCIAL
-    ROLDÁN PEZA JOSÉ JOAQUÍN
-Usando los siguientes parámetros, diseñe un controlador para el sistema
-Ball and Beam de manera que la frecuencia de cruce de ganancia y el margen
-del fase sean los que usted propone
-%}
 clc; clear;
-
+%{
+    Se deben obtener ciertos parametros del sistema, principalmente del motor, del balin y las ganancias de los sensores
+%}
 k       = 20;
 a       =  3;
 A_th    =  1;
