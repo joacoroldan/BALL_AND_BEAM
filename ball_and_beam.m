@@ -21,6 +21,11 @@ proponiendo valores para alpha y Kv
 alpha   = 20;
 Kv      =  0.65;
 
+%{
+    Declaración de las funciones de transferencia individuales respectivas al motor, control de retrovelocidad
+    y declaración de los lazos cerrados respectivos
+%}
+
 motor   = tf(k, [1 a 0]);
 rv      = A_th * Kv * tf([1 0], 1);
 g1      = feedback(motor, rv, -1);   
